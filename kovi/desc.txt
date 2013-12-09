@@ -1,0 +1,128 @@
+Overview:
+
+-adjust the image, in the end each pixel is given a single color (red/green/blue/black/white/midgrey/grey)
+-find a panel internal point (center)
+ -either by finding a big led or finding a red block (cover)
+ -detect panel edges by looking for black sides around center
+ -if not all panel edges/corners are found, others can be calculated (some might depend on the other side image)
+-if no panel edge/corner was found yet
+ -collect small led dot candidates
+ -try to pick some combo of those dots which can match specific leds of the panel (lower leds are preferred)
+  -calculate panel corners based on the found combo
+ -if only one of left/right panel was found, the other side is calculated based the found side
+-handle elements
+ -transform element positions for actual panel corners
+ -adjust element positions and set state by looking for led/big led shapes in the vicinity
+ -fix position of special elements (red cover, rocket switch)
+ -apply panel rules (conditional logic for led states influencing switch state and sometimes other leds' state)
+
+
+Key functions (algorithms) grouped by theme (but ordered similarly as in code):
+(note: most functions work on a single image)
+
+calcavg()	calculate color averages
+smooth()	simple noise reduction on nearest pixels
+recolor()	white balance and choose a primary color for pixel: red, blue, green, white, black, midgrey and grey (neutral) a retry for dark images 
+recalcpanelavg() recalc avg within panel (by sampling) and do recolor in/around panel area
+savetga()	save current image to tga
+
+calcpos()	direct the work of calculating panel edges/corners by calling other functions, included calculations to fill missing panelcorners by using the other side image
+bestledpos()	find the best, led-like object (full circle, ring, or just a blob) with a given color near to a position
+findabigled()	find a big led
+findredblock()	detection of big red blob (the cover)
+getpanelside()	find best edge line over edge point candidates
+collectpanelside() panel edge detection with looking for black edge
+adjustparams()	adjust named params with x/y/hitrate (see below at params)
+specledpos()	find small led dot candidate with given color circle near to a position
+calcsums()	preparation for collect dots: sum number of special color pixels (fast rectangle sum filter)
+collectdots2/3() collect small led dot candidates
+dotstopanel()	pick a combo of dots
+transformdots()	transform found special dots to panel corners
+buildonbigled()	an almost blind guess on panel corners, base on just a single big led found (assuming fix size/orientation/etc)
+
+perspectdist()	as i have no 3D/homeography tools, i just estimated nonlinearity with some heuristics based on other side lengthes
+transformall() 	transform original element positions to actual panel positions
+adjustforppled	adjust all panel elements based on relative position the ppled
+adjustbigled()	adjust all mid/lower panel elements based on relative position of a found big led (or lower part small led)
+checkled()	check/set position/state of a small led (and the corresponding switch as well)
+checkbigled()	check/set position/state of a big led
+checkleds()	check and adjust element (led and bigled) positions and set state
+applyrules()	apply panel rules (conditional logic for led states influencing switch state and sometimes other leds' state)
+fixspecials()	fix position of special elements (red cover, rocket switch)
+adjustpanelparams() adjust named params (with panel flag) with panel actual size
+
+recognize()	start function (called from either main or Robonaut class)
+score()		score calc like in tester (requires model.csv)
+main()		batch runner (can work tester.jar or with gen*.dat binary data)
+
+
+Parameters
+
+There is a bunch of named parameters, which were created to have an adjusteable framework. Most of these are simple x/y adjustments/ranges/sizes, which has a default value, but can be adjusted dynamically (eg. for bigger image size or smaller panel size). As the solution evolved and deadline came closer, some unnamed constant multipliers were introduced. Most of the parameters were just first guessed or estimated with simple heuristics, based on the local sample images. As the testing went on, I adjusted here and there. For some parameters I did semi-automatic test/finetune with full batch runs. I have analyzed the result scores manually, looking for best average/final score, but not dropping too much in any of the samples. 
+
+named parameters:
+param[]		(adjusted) value for named param
+
+RB_CMIN,	red block column minimum number
+RB_RMIN,	red block row minimum number
+RB_HIT128,	red block hit rate (~pct)
+LBL_CREL,	unused
+LBL_RMAX,	unused
+
+CLINE_GRP,	check line (for black edge detection) group, number of subsequent line/column
+CLINE_CNT,	check line count, number of trials line/column
+CLINE_EPS,	check line epsilon (to consider points of the same line)
+CLINE_DIFF,	check line diff, x/y difference of single checks
+CLINE_XMIN,	x min
+CLINE_XMAX,	x max
+CLINE_YMIN,	y min
+CLINE_YMAX,	y max
+CLINE_BMIN,	black pixels minimum number
+CLINE_BHIT128,	black hit rate (~pct)
+
+A01RS_MAXXY,	maximums for rocket switch relative position
+A01RS_CIRCLER,	radius of rocket switch check
+A01RS_CNT,	minimum number of "good" pixels in radius to accept rocket switch (will be sqaured!)
+
+BIGLED_MAXXY,	maximums for big led check relative position
+BIGLED_CIRCLER,	radius for big led checks
+BIGLED_CNT,	minimum  number of "good" pixels in radius to accept big led (will be sqaured)
+BIGLED_MINCIRCLER, radius of the inner circle of big led (which is normally assumed to be left empty)
+BIGLED_GREYCNT,	minimum  number of "good" pixels in radius for grey led (will be sqaured)
+
+LED_MAXXY,	maximums for led check relative position
+LED_CIRCLER,	radius of led check
+LED_CNT,	minimum number of "good" pixels in radius for led (will be sqaured)
+
+LED_BLACKMAXXY, maximums for black led check relative position
+LED_BLACKCIRCLER, radius of black led check
+LED_BLACKCNT,	minimum  number of "good" pixels in radius for led (will be sqaured)
+
+flags for named params:
+rparam[]	row param (adjusted by actual image height)
+cparam[]	column param (adjusted by actual image width)
+rateparam[]	marks hitrate kin param (lowered for noise image)
+panelparam[]	panel size param (adjusted with the actual panel sizes)
+
+other parameters:
+pv oripanel[] 			original panel corner positions (from Lab3 VGMZ right image)
+pv oripos[]			original element positions (from model.csv: Lab3 VGMZ right image)
+leftrightadjust			x difference of the same point on left vs. right image (guessed as 340 on a 1200x1600 image)
+mode				ISS/Lab/Lab2/Lab3/Sim: base on image size and pixel avg intensity/variance
+color choice "parameters" 	in functions like isdarkred(), isblack(), etc., most parameters are obvious, exception: i was unable to reliably differentiate between very light green and blue (turquoise), so these are given white color and assessed later
+checkleds() multipliers		when there is a big uncertainty in panel side, maxxy's are multiplied for first led detection
+fixsecials() adjustments	x/y adjustments for red cover position in various cases (depending on up/down state and estimation of 3D effect)
+collectdots2/3() values		sums of special values and possible circle radius and checkrange to find small led dot candidates
+buildonbigled() adjustments	just a wild guess for panel corners with a typical lab2 or lab3 setup
+
+
+some notes about batch/diagnostics:
+testcase (argv[1])	just a string, but I used <mode><case> (eg. LabTPMO)
+testparam (argv[2])	0: normal run, 1/2/4: only go till panel corner detection, reveal important points (eg. center, key led dots, etc.) for panel corner detection (so tester.jar will draw them on the image)
+testcommand (argv[3])	flags 1: read gen<testcase>.dat, 2: write gen<testcase>.dat, 4: save final transformed images, 8: save first transformed color images
+testmode (argv[4])	eg. Lab (just for the record)
+
+
+Thanks for a great problem and competition. And good luck Robonaut!
+
+Kovi

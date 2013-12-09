@@ -1,0 +1,3 @@
+78, Lab2/ZMXP.tif: 65.9924 (3319ms)
+79, Lab3/AIFS.tif: 64 (3044ms)
+80, Lab3/AWZM.tif: 64.6229 (2681ms)

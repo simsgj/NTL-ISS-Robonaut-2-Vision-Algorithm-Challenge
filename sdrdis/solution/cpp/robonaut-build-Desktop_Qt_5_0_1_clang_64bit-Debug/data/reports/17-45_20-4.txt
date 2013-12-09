@@ -1,0 +1,185 @@
+0, ISS/BHXG.tif: 55
+1, ISS/CIZA.tif: 60.6014
+2, ISS/LTBP.tif: 62
+3, ISS/QKNK.tif: 54.019
+/!\ 4, ISS/UGKE.tif: 35.5467
+5, Lab/AHJH.tif: 56.175
+6, Lab/AJBB.tif: 55.7421
+7, Lab/BJQW.tif: 60.0833
+8, Lab/BQJW.tif: 55.8821
+9, Lab/BRYB.tif: 57.0467
+10, Lab/DRII.tif: 58.0833
+11, Lab/EDZR.tif: 58.1649
+12, Lab/FBQH.tif: 51.0227
+13, Lab/FQHT.tif: 55
+14, Lab/FVSX.tif: 61
+15, Lab/FVVS.tif: 51.5345
+16, Lab/GHDF.tif: 57
+17, Lab/HFBC.tif: 61.0833
+18, Lab/HSCA.tif: 59
+/!\ 19, Lab/HVCP.tif: 38.0653
+20, Lab/HXKW.tif: 51.4921
+21, Lab/LIJZ.tif: 54.9957
+/!\ 22, Lab/MCHO.tif: 42.84
+23, Lab/MQMY.tif: 58.4147
+24, Lab/OSBD.tif: 62.1366
+25, Lab/OWNI.tif: 46.7809
+26, Lab/PHPH.tif: 59.3357
+27, Lab/PMSA.tif: 53.1366
+28, Lab/QUEG.tif: 44.8667
+29, Lab/QVCY.tif: 58.0317
+30, Lab/RAHQ.tif: 57
+31, Lab/SMKM.tif: 61.1133
+32, Lab/SYDY.tif: 62
+33, Lab/SYKR.tif: 58.1522
+/!\ 34, Lab/TPMO.tif: 43.1972
+35, Lab/WLHI.tif: 55
+36, Lab/WZOK.tif: 60
+37, Lab/XIIV.tif: 59
+38, Lab/YAAW.tif: 49.0198
+39, Lab/YZKH.tif: 60.0336
+40, Lab/ZDSG.tif: 60.1649
+41, Lab/ZEGF.tif: 57.6661
+42, Lab/ZTQB.tif: 58
+43, Lab/ZUHN.tif: 58.1366
+44, Lab/ZUXC.tif: 59.7525
+45, Lab2/ALJD.tif: 62.0149
+46, Lab2/AMHF.tif: 61.3514
+47, Lab2/BFKF.tif: 59.3243
+48, Lab2/CFPH.tif: 61.8494
+49, Lab2/CORT.tif: 61.9972
+50, Lab2/CVKF.tif: 62.0358
+51, Lab2/DKVW.tif: 57.2518
+52, Lab2/DORQ.tif: 61.079
+53, Lab2/GAEY.tif: 62
+54, Lab2/GXRT.tif: 48.2842
+55, Lab2/GXZN.tif: 45.9114
+56, Lab2/JBYK.tif: 61.9767
+57, Lab2/MBUJ.tif: 47
+58, Lab2/MDSJ.tif: 60.045
+/!\ 59, Lab2/MPUI.tif: 33.4948
+60, Lab2/NZTD.tif: 60.9475
+61, Lab2/PBHG.tif: 58.9786
+62, Lab2/PDMR.tif: 53.1159
+63, Lab2/PMGZ.tif: 62
+64, Lab2/PNSL.tif: 61.9972
+65, Lab2/QVZT.tif: 60.7981
+66, Lab2/RAPC.tif: 62
+67, Lab2/RFAY.tif: 60
+68, Lab2/RXNQ.tif: 61.9525
+69, Lab2/TOGU.tif: 59.8411
+70, Lab2/UHRN.tif: 62.1125
+71, Lab2/UZAV.tif: 61.9767
+/!\ 72, Lab2/VGMR.tif: 38.8877
+73, Lab2/VLES.tif: 61.8513
+74, Lab2/VQBG.tif: 59.1444
+75, Lab2/VXVC.tif: 60.4835
+76, Lab2/WGHL.tif: 62.0362
+77, Lab2/XDOC.tif: 47.9196
+78, Lab2/ZMXP.tif: 60.9475
+79, Lab3/AIFS.tif: 64
+80, Lab3/AWZM.tif: 59.2358
+81, Lab3/CFJD.tif: 61.4438
+82, Lab3/CVIV.tif: 49.1536
+83, Lab3/DLZC.tif: 52.0944
+84, Lab3/EOXV.tif: 46
+85, Lab3/ESNW.tif: 63.0343
+86, Lab3/FKWN.tif: 58.9475
+87, Lab3/FSUD.tif: 63.9323
+88, Lab3/GCNZ.tif: 63.9524
+89, Lab3/HTOG.tif: 46.0612
+90, Lab3/JLJQ.tif: 60.1125
+/!\ 91, Lab3/JMOA.tif: 40.5721
+92, Lab3/KOQL.tif: 60.2595
+93, Lab3/LITW.tif: 52.365
+94, Lab3/LUKC.tif: 54.2772
+95, Lab3/MLGD.tif: 56
+96, Lab3/MVRN.tif: 63.6478
+/!\ 97, Lab3/TTUB.tif: 20.9209
+98, Lab3/URDX.tif: 53.2094
+99, Lab3/VMZG.tif: 58.5243
+100, Lab3/VNPG.tif: 54.2385
+/!\ 101, Lab3/WYOF.tif: 42.6216
+102, Lab3/XGEC.tif: 54.3535
+103, Lab3/XZGB.tif: 64
+104, Lab3/YOLS.tif: 49.7072
+105, Lab3/ZDSC.tif: 60.557
+/!\ 106, Sim/BGML.jpg: 37.1919
+/!\ 107, Sim/CRSP.jpg: 18.0859
+/!\ 108, Sim/DBBP.jpg: 28.1856
+109, Sim/DXGS.jpg: 47.8378
+/!\ 110, Sim/ELPF.jpg: 22.7938
+/!\ 111, Sim/GFRA.jpg: 28.1042
+/!\ 112, Sim/HXKS.jpg: 22.2009
+/!\ 113, Sim/KJDJ.jpg: 13.0907
+/!\ 114, Sim/PAZC.jpg: 18.9903
+/!\ 115, Sim/PJEG.jpg: 32.6273
+116, Sim/TDAB.jpg: 49.3932
+/!\ 117, Sim/TGEU.jpg: 18.2322
+/!\ 118, Sim/TVSM.jpg: 39.8106
+/!\ 119, Sim/UMDS.jpg: 14.0681
+/!\ 120, Sim/VLDH.jpg: 13.7059
+/!\ 121, Sim/VPAU.jpg: 28.3798
+/!\ 122, Sim/VRXG.jpg: 37.9239
+/!\ 123, Sim/WQQJ.jpg: 35.4493
+/!\ 124, Sim/YVIH.jpg: 40.7024
+125, Sim/YXQV.jpg: 49.3438
+
+
+Folder: ISS
+
+Nb files: 5
+Environment score: 1.1
+Hidden score: 0.0909091
+Proximity score: 0.497476(0.108585, 0.0058781)
+State score: 0.221212(0.0818182, 0.00442914)
+Overall score: 0.809597(0.0103072)
+
+
+Folder: Lab
+
+Nb files: 40
+Environment score: 1
+Hidden score: 0.0772727
+Proximity score: 0.523542(0.0916098, 0.0360669)
+State score: 0.242045(0.0655303, 0.0257994)
+Overall score: 0.84286(0.0618662)
+
+
+Folder: Lab2
+
+Nb files: 34
+Environment score: 0.8
+Hidden score: 0.0588235
+Proximity score: 0.522552(0.104899, 0.0280833)
+State score: 0.293226(0.0204991, 0.00548795)
+Overall score: 0.874602(0.0335713)
+
+
+Folder: Lab3
+
+Nb files: 27
+Environment score: 0.7
+Hidden score: 0.0690236
+Proximity score: 0.500124(0.120527, 0.0224208)
+State score: 0.257576(0.0527497, 0.0098127)
+Overall score: 0.826724(0.0322335)
+
+
+Folder: Sim
+
+Nb files: 20
+Environment score: 0.5
+Hidden score: 0.0340909
+Proximity score: 0.245544(0.398396, 0.0392122)
+State score: 0.17197(0.15, 0.0147638)
+Overall score: 0.451604(0.053976)
+
+
+TOTAL
+
+Nb files: 126
+Hidden score: 0.0672871
+Proximity score: 0.490148(0.131661)
+State score: 0.250612(0.0602929)
+Overall score: 0.808047(0.191954)

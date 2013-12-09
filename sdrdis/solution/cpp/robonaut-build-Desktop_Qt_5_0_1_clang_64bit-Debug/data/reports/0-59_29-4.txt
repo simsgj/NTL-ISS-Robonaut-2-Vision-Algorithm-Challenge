@@ -1,0 +1,3 @@
+/!\ 84, Lab3/EOXV.tif: 54.8974 (2668ms)
+85, Lab3/ESNW.tif: 65 (2659ms)
+86, Lab3/FKWN.tif: 63.0574 (2723ms)

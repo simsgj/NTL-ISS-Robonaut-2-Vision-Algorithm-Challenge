@@ -1,0 +1,57 @@
+Folder: "ISS" 
+
+Nb files: 5 
+Environment score: 1.1 
+Hidden score: 0.0909091 
+Proximity score: 0.434819 ( 0.171241 , 0.00926996 ) 
+State score: 0.242424 ( 0.0606061 , 0.00328084 ) 
+Overall score: 0.768153 ( 0.0125508 ) 
+
+
+Folder: "Lab" 
+
+Nb files: 40 
+Environment score: 1 
+Hidden score: 0.0772727 
+Proximity score: 0.489473 ( 0.125679 , 0.0494799 ) 
+State score: 0.232576 ( 0.075 , 0.0295276 ) 
+Overall score: 0.799321 ( 0.0790075 ) 
+
+
+Folder: "Lab2" 
+
+Nb files: 34 
+Environment score: 0.8 
+Hidden score: 0.0588235 
+Proximity score: 0.487909 ( 0.139542 , 0.0373577 ) 
+State score: 0.291444 ( 0.0222816 , 0.00596517 ) 
+Overall score: 0.838177 ( 0.0433229 ) 
+
+
+Folder: "Lab3" 
+
+Nb files: 27 
+Environment score: 0.7 
+Hidden score: 0.0690236 
+Proximity score: 0.424988 ( 0.195663 , 0.0363979 ) 
+State score: 0.253648 ( 0.0566779 , 0.0105434 ) 
+Overall score: 0.747659 ( 0.0469414 ) 
+
+
+Folder: "Sim" 
+
+Nb files: 20 
+Environment score: 0.5 
+Hidden score: 0.0340909 
+Proximity score: 0.246957 ( 0.396982 , 0.0390731 ) 
+State score: 0.168939 ( 0.15303 , 0.015062 ) 
+Overall score: 0.449988 ( 0.0541351 ) 
+
+
+TOTAL 
+
+Nb files: 126 
+Hidden score: 0.0672871 
+Proximity score: 0.450231 ( 0.171579 ) 
+State score: 0.246525 ( 0.0643791 ) 
+Overall score: 0.764043 ( 0.235958 ) 

@@ -1,0 +1,4 @@
+The first part (600 lines) of the solution is my competition template + 2d geometry routines, which are not specific to this problem at all. As I have discussed in e-mail with Ivan Metelsky I use those for competions for some time and would like to use them for later competitions. As Ivan suggested (refering to a Topcoder legal expert) it is possible with attaching an Apache license for that part. So now I have included my last solution for the additional contest with an Apache license added for the first part.
+
+Kovi
+

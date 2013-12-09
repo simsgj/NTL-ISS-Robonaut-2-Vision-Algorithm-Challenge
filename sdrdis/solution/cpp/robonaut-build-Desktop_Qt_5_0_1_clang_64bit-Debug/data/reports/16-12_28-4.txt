@@ -1,0 +1,185 @@
+0, ISS/BHXG.tif: 65.4437 (4507ms)
+1, ISS/CIZA.tif: 62 (3429ms)
+2, ISS/LTBP.tif: 66 (3755ms)
+3, ISS/QKNK.tif: 66 (3462ms)
+4, ISS/UGKE.tif: 63 (3786ms)
+5, Lab/AHJH.tif: 66 (4151ms)
+6, Lab/AJBB.tif: 66 (3549ms)
+7, Lab/BJQW.tif: 66 (3617ms)
+8, Lab/BQJW.tif: 66 (3361ms)
+9, Lab/BRYB.tif: 66 (3609ms)
+10, Lab/DRII.tif: 66 (3491ms)
+11, Lab/EDZR.tif: 66 (3778ms)
+12, Lab/FBQH.tif: 66 (3990ms)
+13, Lab/FQHT.tif: 66 (3368ms)
+14, Lab/FVSX.tif: 64 (3647ms)
+15, Lab/FVVS.tif: 66 (3487ms)
+16, Lab/GHDF.tif: 66 (3904ms)
+17, Lab/HFBC.tif: 66 (3619ms)
+18, Lab/HSCA.tif: 66 (3532ms)
+19, Lab/HVCP.tif: 66 (3492ms)
+20, Lab/HXKW.tif: 66 (4297ms)
+21, Lab/LIJZ.tif: 66 (3610ms)
+22, Lab/MCHO.tif: 66 (4282ms)
+23, Lab/MQMY.tif: 66 (3604ms)
+24, Lab/OSBD.tif: 66 (3570ms)
+25, Lab/OWNI.tif: 66 (4171ms)
+26, Lab/PHPH.tif: 66 (3559ms)
+27, Lab/PMSA.tif: 66 (18927ms)
+28, Lab/QUEG.tif: 65.9939 (3502ms)
+29, Lab/QVCY.tif: 66 (3604ms)
+30, Lab/RAHQ.tif: 66 (3635ms)
+31, Lab/SMKM.tif: 66 (3456ms)
+32, Lab/SYDY.tif: 66 (3546ms)
+33, Lab/SYKR.tif: 66 (3581ms)
+34, Lab/TPMO.tif: 64 (3835ms)
+35, Lab/WLHI.tif: 66 (4364ms)
+36, Lab/WZOK.tif: 66 (3476ms)
+37, Lab/XIIV.tif: 66 (3519ms)
+38, Lab/YAAW.tif: 66 (4324ms)
+39, Lab/YZKH.tif: 66 (3579ms)
+40, Lab/ZDSG.tif: 66 (3616ms)
+41, Lab/ZEGF.tif: 66 (4187ms)
+42, Lab/ZTQB.tif: 66 (4325ms)
+43, Lab/ZUHN.tif: 66 (3488ms)
+44, Lab/ZUXC.tif: 66 (4025ms)
+45, Lab2/ALJD.tif: 66 (2810ms)
+46, Lab2/AMHF.tif: 66 (2552ms)
+47, Lab2/BFKF.tif: 65.9995 (2698ms)
+48, Lab2/CFPH.tif: 66 (2635ms)
+49, Lab2/CORT.tif: 66 (2883ms)
+50, Lab2/CVKF.tif: 66 (2828ms)
+51, Lab2/DKVW.tif: 66 (2539ms)
+52, Lab2/DORQ.tif: 65.9271 (2817ms)
+53, Lab2/GAEY.tif: 63 (2742ms)
+54, Lab2/GXRT.tif: 66 (2690ms)
+55, Lab2/GXZN.tif: 66 (2802ms)
+56, Lab2/JBYK.tif: 66 (3139ms)
+/!\ 57, Lab2/MBUJ.tif: 51 (2830ms)
+58, Lab2/MDSJ.tif: 66 (2803ms)
+59, Lab2/MPUI.tif: 63.885 (3256ms)
+60, Lab2/NZTD.tif: 66 (2813ms)
+61, Lab2/PBHG.tif: 66 (2751ms)
+62, Lab2/PDMR.tif: 66 (2880ms)
+63, Lab2/PMGZ.tif: 66 (2636ms)
+64, Lab2/PNSL.tif: 66 (2998ms)
+65, Lab2/QVZT.tif: 66 (2606ms)
+66, Lab2/RAPC.tif: 66 (2872ms)
+67, Lab2/RFAY.tif: 63 (2690ms)
+68, Lab2/RXNQ.tif: 65.9908 (2678ms)
+69, Lab2/TOGU.tif: 66 (2855ms)
+70, Lab2/UHRN.tif: 65.9927 (2620ms)
+71, Lab2/UZAV.tif: 65.9624 (2853ms)
+72, Lab2/VGMR.tif: 66 (2898ms)
+73, Lab2/VLES.tif: 66 (2687ms)
+74, Lab2/VQBG.tif: 65.7642 (2796ms)
+75, Lab2/VXVC.tif: 65.9471 (2734ms)
+76, Lab2/WGHL.tif: 65.9221 (2679ms)
+77, Lab2/XDOC.tif: 66 (2994ms)
+78, Lab2/ZMXP.tif: 65.9924 (2693ms)
+79, Lab3/AIFS.tif: 64 (2817ms)
+80, Lab3/AWZM.tif: 64.0329 (2795ms)
+/!\ 81, Lab3/CFJD.tif: 54.4192 (2694ms)
+/!\ 82, Lab3/CVIV.tif: 50.3196 (2965ms)
+83, Lab3/DLZC.tif: 63.957 (2574ms)
+/!\ 84, Lab3/EOXV.tif: 54.8974 (2492ms)
+85, Lab3/ESNW.tif: 65 (2732ms)
+86, Lab3/FKWN.tif: 63.0574 (2601ms)
+87, Lab3/FSUD.tif: 62.8108 (2792ms)
+/!\ 88, Lab3/GCNZ.tif: 51.1012 (2764ms)
+89, Lab3/HTOG.tif: 64.7154 (3204ms)
+90, Lab3/JLJQ.tif: 64.7618 (3502ms)
+91, Lab3/JMOA.tif: 65.1866 (2768ms)
+92, Lab3/KOQL.tif: 63.9845 (2758ms)
+93, Lab3/LITW.tif: 64.3344 (2714ms)
+94, Lab3/LUKC.tif: 65.2705 (2874ms)
+/!\ 95, Lab3/MLGD.tif: 54 (2332ms)
+96, Lab3/MVRN.tif: 64 (2767ms)
+/!\ 97, Lab3/TTUB.tif: 42.9752 (2600ms)
+98, Lab3/URDX.tif: 62.974 (2782ms)
+99, Lab3/VMZG.tif: 64 (2794ms)
+100, Lab3/VNPG.tif: 63.7849 (2605ms)
+/!\ 101, Lab3/WYOF.tif: 50.9429 (3019ms)
+102, Lab3/XGEC.tif: 66 (2626ms)
+103, Lab3/XZGB.tif: 62.9368 (2548ms)
+104, Lab3/YOLS.tif: 66 (2734ms)
+105, Lab3/ZDSC.tif: 63.044 (2646ms)
+106, Sim/BGML.jpg: 64 (2216ms)
+107, Sim/CRSP.jpg: 65.868 (2060ms)
+/!\ 108, Sim/DBBP.jpg: 51.357 (2156ms)
+109, Sim/DXGS.jpg: 64.4699 (2180ms)
+110, Sim/ELPF.jpg: 60 (2091ms)
+111, Sim/GFRA.jpg: 59.9931 (2208ms)
+/!\ 112, Sim/HXKS.jpg: 16 (2000ms)
+/!\ 113, Sim/KJDJ.jpg: 53.9829 (2242ms)
+/!\ 114, Sim/PAZC.jpg: 20.4335 (2343ms)
+115, Sim/PJEG.jpg: 63 (2079ms)
+116, Sim/TDAB.jpg: 63.6853 (2136ms)
+/!\ 117, Sim/TGEU.jpg: 49.819 (2072ms)
+118, Sim/TVSM.jpg: 65.9951 (2200ms)
+/!\ 119, Sim/UMDS.jpg: 49.2759 (2159ms)
+120, Sim/VLDH.jpg: 64.9333 (2173ms)
+121, Sim/VPAU.jpg: 62.7294 (1975ms)
+122, Sim/VRXG.jpg: 64.9847 (2189ms)
+123, Sim/WQQJ.jpg: 59.9324 (1975ms)
+124, Sim/YVIH.jpg: 64 (2168ms)
+125, Sim/YXQV.jpg: 64 (2213ms)
+
+
+Folder: ISS
+
+Nb files: 5
+Environment score: 1.1
+Hidden score: 0.0909091
+Proximity score: 0.592254(0.0138069, 0.000747423)
+State score: 0.293939(0.00909093, 0.000492127)
+Overall score: 0.977102(0.00123955)
+
+
+Folder: Lab
+
+Nb files: 40
+Environment score: 1
+Hidden score: 0.0772727
+Proximity score: 0.614392(0.00075991, 0.000299177)
+State score: 0.306818(0.00075758, 0.00029826)
+Overall score: 0.998483(0.000597437)
+
+
+Folder: Lab2
+
+Nb files: 34
+Environment score: 0.8
+Hidden score: 0.0588235
+Proximity score: 0.617818(0.00963306, 0.00257893)
+State score: 0.312834(0.000891267, 0.000238607)
+Overall score: 0.989476(0.00281754)
+
+
+Folder: Lab3
+
+Nb files: 27
+Environment score: 0.7
+Hidden score: 0.0690236
+Proximity score: 0.553595(0.0670558, 0.012474)
+State score: 0.299102(0.0112234, 0.00208781)
+Overall score: 0.921721(0.0145618)
+
+
+Folder: Sim
+
+Nb files: 20
+Environment score: 0.5
+Hidden score: 0.0340909
+Proximity score: 0.552621(0.0913185, 0.00898805)
+State score: 0.268182(0.0537879, 0.00529409)
+Overall score: 0.854894(0.0142821)
+
+
+TOTAL
+
+Nb files: 126
+Hidden score: 0.0672871
+Proximity score: 0.596722(0.0250876)
+State score: 0.302494(0.00841089)
+Overall score: 0.966502(0.0334985)

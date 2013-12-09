@@ -1,0 +1,24 @@
+
+1) component search method for Sim
+I used a specific method for images in Sim. 
+I check the difference between R, G and B to determine if the image is in SIM.
+The function "rec_sim" start from line 7466 is the main method for Sim.
+Firstly, I try to find the most large component with the color of red. 
+Then I use flood fill method from the pixels around the red component to find the panel and determine the boundary of panel. 
+Then, calculate the cross points of the boundary lines. The cross points are the corners of the panel.
+With the corners of the panel, I can find the transformation parameter and determine the positions of all components. Parameters from line 7468 to line 7493 are the positions extracted from one image. 
+function "locate_points" calculate the transformation parameter and locate all components needed on target image. It uses lsqr method, which is an open source code http://www.stanford.edu/group/SOL/software/lsqr.html 
+I slightly adjust the position of A01 switch by finding the black pixels around. See function "local_black_button_search". 
+
+2) component search method for Lab1, lab2, Lab3 and ISS
+I used sift feature to match the target image and the template images.
+I choose ten images (lab/left_AJBB, lab/right_BQJW, lab/left_TPMO, lab/right_OWNI, lab2/right_RAPC, lab2/right_ZMXP, lab2/left_PMGZ, lab3/left_HTOG, lab3/left_URDX, lab3/left_LUKC) as the templates and find there sift feature.
+line 1039 to 3502 is from siftpp (http://www.vlfeat.org/~vedaldi/code/siftpp.html ) , which is an open source SIFT detector.
+line 3511 to 6868 is the information of ten image templates.
+the function "mymatch" is a greedy method to match the sift feature of target image and template images.
+the function "randmatch" randomly choose four matched pairs to calculate the transformation parameters and check the whether there are many other matched pairs on the position of all components.
+
+3) adjust the position of red cover.
+I slightly adjust the position of red cover by finding the red pixels around. See function "local_red_cover_search".
+
+4) function "check_led" start from line 7110 check if the LED is on. It mainly check the brightness of the pixels. The status of the switches are then determined by the LED status.
