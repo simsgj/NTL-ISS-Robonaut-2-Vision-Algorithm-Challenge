@@ -1,0 +1,35 @@
+3-week challenge winners:
+1st place – TopCoder handle: Athyssen
+1) Name: (handle) Athyssen
+2) Country: USA
+3) Industry: Unknown
+4) Why you decided to compete in this challenge: Unknown
+ 
+2nd  place –TopCoder handle: sdrdis
+1) Name: Sébastien Drouyer
+2) Country: France
+3) Industry: Open source Web Development
+4) Why did you decide to compete in this challenge? “It is not the first time I take part in a contest ; this is always a very good experience, and each time I think it improves my general approaches to problems.More specifically, I participated in the Robonaut challenge because I love robot and space related themes. I am fond of science fiction movies and taking part to this contest really gave me the impression I was contributing to the future ; and who knows, maybe some of my concepts and lines of code will be sent to the ISS inside the Robonaut! I hope our different approaches will help NASA improve Robonaut 2 and the lives of men and women working in the ISS. This contest was a fantastic experience for me and I don't doubt I will participate to future challenges.”
+ 
+3rd place – TopCoder handle: kovi
+1) Name: (handle) kovi
+2) Country: Hungary
+3) Industry: Car navigation
+4) Why you decided to compete in this challenge: “It was a fun and challenging task, with an exciting background story.”
+ 
+4th place – TopCoder handle: Whoa314
+1) Name: (handle) Whoa314
+2) Country: USA
+3) Industry: Software Engineering
+4) Why you were interested in competing in the challenge: “The NASA challenge was a great opportunity to learn and innovate in an area of technology outside of day-to-day work, with the freedom to rapidly try new experimental techniques due to not being limited by any particular legacy codebase.”
+ 
+1-week additional challenge winners:
+1st place – TopCoder handle: sdrdis (same info as above)
+2nd place – TopCoder handle: athyssen (same info as above)
+3rd place – TopCoder handle: Kirstein
+We didn’t hear back from Kirstein. The info below is all I can provide
+1) Name: (handle) Kirstein
+2) Country: China
+3) Industry: Unknown
+4) Why you decided to compete in this challenge: Unknown
+4th place – TopCoder handle: Kovi (same as above)
